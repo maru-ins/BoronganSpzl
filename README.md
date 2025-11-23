@@ -118,5 +118,4 @@ Proyek ini dirilis di bawah MIT License.
 
 ## 📧 Kontak
 
-**Email:** yourname@example.com\
-**GitHub:** https://github.com/username
+**Email:** mediamulti049@gmail.com\
