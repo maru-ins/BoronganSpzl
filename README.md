@@ -54,26 +54,80 @@ lebih efisien, terstruktur, dan cepat.
 
 ------------------------------------------------------------------------
 
-## 🔧 Cara Menjalankan
+## 🛠️ Instalasi
 
 ### 1. Clone Repository
 
-    git clone https://github.com/username/AutoPentest.git
-    cd AutoPentest
+``` bash
+git clone https://github.com/username/project-ai-python.git
+cd project-ai-python
+```
 
 ### 2. Buat Virtual Environment
 
-    python -m venv venv
-    venv/Scripts/activate  # Windows
-    source venv/bin/activate  # Linux
+``` bash
+python -m venv venv
+venv/Scripts/activate       # Windows
+source venv/bin/activate    # Linux/macOS
+```
 
 ### 3. Install Dependencies
 
-    pip install -r requirements.txt
+``` bash
+pip install -r requirements.txt
+```
 
-### 4. Jalankan Program
+## ▶️ Cara Menjalankan
 
-    python main_menu.py
+``` bash
+python main.py
+```
+
+atau bila menggunakan menu:
+
+``` bash
+python main_menu.py
+```
+
+## ⚙️ Konfigurasi
+
+Jika proyek menggunakan file konfigurasi:
+
+    config/
+    │── settings.json
+    │── model_config.yaml
+
+Sesuaikan API key, path dataset, serta parameter model sesuai kebutuhan.
+
+## 📦 Dependencies Utama
+
+-   Python 3.10+
+-   TensorFlow / PyTorch
+-   NumPy
+-   Pandas
+-   Scikit-learn
+-   OpenAI / LangChain
+-   Rich
+
+## 🧪 Testing
+
+``` bash
+- Mauskan Url Target
+- Pilih Menu Agent 1-5
+- Proses 
+- Report dalam bentuk JSON & Txt
+```
+
+## 🤝 Kontribusi
+
+1.  Fork repository\
+2.  Buat branch baru\
+3.  Commit & push\
+4.  Buat Pull Request
+
+## 📧 Kontak
+
+**Email:** mediamulti049@gmail.com\
 
 ------------------------------------------------------------------------
 
