@@ -19,24 +19,27 @@ algoritma AI dan automasi.
 
 ## 📂 Struktur Folder
 
-    project/
-    │── main.py
-    │── requirements.txt
-    │── README.md
-    │
+   AutoPentest/
     ├── core/
     │   ├── agent.py
-    │   ├── model.py
-    │   └── runner.py
-    │
+    │   ├── analyzer.py
+    │   ├── crawler.py
+    │   ├── fuzzer.py
+    │   ├── report.py
+    │   ├── scanner.py
+    │   └── worker.py
+    ├── data/
+    │   ├── payloads_ifl.txt
+    │   ├── payloads_sql.txt
+    │   └── payloads_xss.txt
     ├── utils/
     │   ├── analyzer.py
-    │   ├── helpers.py
-    │   └── logger.py
-    │
-    └── data/
-        ├── input/
-        └── output/
+    │   ├── http_client.py
+    │   ├── logger.py
+    │   └── parser.py
+    ├── main_menu.py
+    ├── main.py
+
 
 ## 🛠️ Instalasi
 
