@@ -1,0 +1,980 @@
+[
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net",
+    "finding": "Status: 200, Size: 9405"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net#gift",
+    "finding": "Status: 200, Size: 9405"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net#gift",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net#time",
+    "finding": "Status: 200, Size: 9405"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net#time",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net#top",
+    "finding": "Status: 200, Size: 9405"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net#top",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/Documents/JohnSmith/VoluteeringInformation.pdf",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/Documents/JohnSmith/VoluteeringInformation.pdf",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/Privacypolicy.jsp?sec=Careers&template=US",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/Privacypolicy.jsp?sec=Careers&template=US",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/admin/clients.xls",
+    "finding": "Status: 200, Size: 8555"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/admin/clients.xls",
+    "finding": [
+      "Potential sensitive data exposed: password",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/cgi.exe",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/cgi.exe",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/default.jsp",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/default.jsp",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/default.jsp?content=security.htm",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/default.jsp?content=security.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/disclaimer.htm?url=http://www.microsoft.com",
+    "finding": "Status: 200, Size: 2083"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/disclaimer.htm?url=http://www.microsoft.com",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Potential sensitive data exposed: authorization",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/disclaimer.htm?url=http://www.netscape.com",
+    "finding": "Status: 200, Size: 2083"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/disclaimer.htm?url=http://www.netscape.com",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Potential sensitive data exposed: authorization",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/doLogin",
+    "finding": "Status: 200, Size: 9405"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/doLogin",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/doSubscribe",
+    "finding": "Status: 405, Size: 1078"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/doSubscribe",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/favicon-16x16.png",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/favicon-16x16.png",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/favicon-32x32.png",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/favicon-32x32.png",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/feedback.jsp",
+    "finding": "Status: 200, Size: 8535"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/feedback.jsp",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/high_yield_investments.htm",
+    "finding": "Status: 200, Size: 7653"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/high_yield_investments.htm",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp",
+    "finding": "Status: 200, Size: 9405"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business.htm",
+    "finding": "Status: 200, Size: 8522"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_cards.htm",
+    "finding": "Status: 200, Size: 8062"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_cards.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_deposit.htm",
+    "finding": "Status: 200, Size: 7883"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_deposit.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_insurance.htm",
+    "finding": "Status: 200, Size: 7745"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_insurance.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_lending.htm",
+    "finding": "Status: 200, Size: 7877"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_lending.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_other.htm",
+    "finding": "Status: 200, Size: 7728"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_other.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_retirement.htm",
+    "finding": "Status: 200, Size: 6960"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=business_retirement.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside.htm",
+    "finding": "Status: 200, Size: 8400"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_about.htm",
+    "finding": "Status: 200, Size: 7954"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_about.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_benefits.htm",
+    "finding": "Status: 200, Size: 8637"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_benefits.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_careers.htm",
+    "finding": "Status: 200, Size: 8338"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_careers.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_community.htm",
+    "finding": "Status: 200, Size: 7886"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_community.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_contact.htm",
+    "finding": "Status: 200, Size: 10149"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_contact.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_contact.htm#ContactUs",
+    "finding": "Status: 200, Size: 10149"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_contact.htm#ContactUs",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_executives.htm",
+    "finding": "Status: 200, Size: 10350"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_executives.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_internships.htm",
+    "finding": "Status: 200, Size: 7640"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_internships.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_investor.htm",
+    "finding": "Status: 200, Size: 8322"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_investor.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=CustomerServiceRepresentative:CustomerService",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=CustomerServiceRepresentative:CustomerService",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=ExecutiveAssistant:Administration",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=ExecutiveAssistant:Administration",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=LoyaltyMarketingProgramManager:Marketing",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=LoyaltyMarketingProgramManager:Marketing",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=MortgageLendingAccountExecutive:Sales",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=MortgageLendingAccountExecutive:Sales",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=OperationalRiskManager:RiskManagement",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=OperationalRiskManager:RiskManagement",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=Teller:ConsumaerBanking",
+    "finding": "Status: 200, Size: 10765"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_jobs.htm&job=Teller:ConsumaerBanking",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_press.htm",
+    "finding": "Status: 200, Size: 9311"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_press.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_trainee.htm",
+    "finding": "Status: 200, Size: 8591"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_trainee.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_volunteering.htm",
+    "finding": "Status: 200, Size: 8180"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=inside_volunteering.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal.htm",
+    "finding": "Status: 200, Size: 8525"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_cards.htm",
+    "finding": "Status: 200, Size: 8196"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_cards.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_checking.htm",
+    "finding": "Status: 200, Size: 8090"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_checking.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_deposit.htm",
+    "finding": "Status: 200, Size: 8185"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_deposit.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_investments.htm",
+    "finding": "Status: 200, Size: 8259"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_investments.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_loans.htm",
+    "finding": "Status: 200, Size: 7832"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_loans.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_other.htm",
+    "finding": "Status: 200, Size: 7848"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_other.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_savings.htm",
+    "finding": "Status: 200, Size: 6959"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=personal_savings.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060413.htm",
+    "finding": "Status: 200, Size: 7652"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060413.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060518.htm",
+    "finding": "Status: 200, Size: 7240"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060518.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060720.htm",
+    "finding": "Status: 200, Size: 7654"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060720.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060817.htm",
+    "finding": "Status: 200, Size: 7426"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060817.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060921.htm",
+    "finding": "Status: 200, Size: 7329"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060921.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060928.htm",
+    "finding": "Status: 200, Size: 7309"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20060928.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20061005.htm",
+    "finding": "Status: 200, Size: 7371"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20061005.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20061109.htm",
+    "finding": "Status: 200, Size: 7653"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=pr/20061109.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=privacy.htm",
+    "finding": "Status: 200, Size: 12654"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=privacy.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=security.htm",
+    "finding": "Status: 200, Size: 11368"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/index.jsp?content=security.htm",
+    "finding": [
+      "Potential sensitive data exposed: password",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/inside_points_of_interest.htm",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/inside_points_of_interest.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/login.jsp",
+    "finding": "Status: 200, Size: 8555"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/login.jsp",
+    "finding": [
+      "Potential sensitive data exposed: password",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/my%20documents/JohnSmith/Bank%20Site%20Documents/grouplife.htm",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/my%20documents/JohnSmith/Bank%20Site%20Documents/grouplife.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/pr/communityannualreport.pdf",
+    "finding": "Status: 200, Size: 60775"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/pr/communityannualreport.pdf",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/search.jsp",
+    "finding": "Status: 200, Size: 7009"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/search.jsp",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/security.htm",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/security.htm",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/sendFeedback",
+    "finding": "Status: 405, Size: 1078"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/sendFeedback",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/status_check.jsp",
+    "finding": "Status: 200, Size: 10111"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/status_check.jsp",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/style.css",
+    "finding": "Status: 200, Size: 1251"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/style.css",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/subscribe.jsp",
+    "finding": "Status: 200, Size: 8545"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/subscribe.jsp",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/survey_questions.jsp",
+    "finding": "Status: 200, Size: 7145"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/survey_questions.jsp",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/survey_questions.jsp?step=a",
+    "finding": "Status: 200, Size: 7090"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/survey_questions.jsp?step=a",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger-ui-bundle.js",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger-ui-bundle.js",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger-ui-standalone-preset.js",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger-ui-standalone-preset.js",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger-ui.css",
+    "finding": "Status: 404, Size: 6958"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger-ui.css",
+    "finding": [
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger/index.html",
+    "finding": "Status: 200, Size: 1488"
+  },
+  {
+    "target": "http://testfire.net",
+    "url": "http://testfire.net/swagger/index.html",
+    "finding": [
+      "Possible reflected XSS: <script> found in response",
+      "Server Header: Apache-Coyote/1.1"
+    ]
+  }
+]
