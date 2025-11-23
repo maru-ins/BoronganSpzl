@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/f5643096750899.5eb54f3381b8f.png" width="420" />
+</p>
+
 # AutoPentest Agent -- Python
 
 ## 🧠 Overview
