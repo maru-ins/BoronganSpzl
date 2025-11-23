@@ -34,7 +34,8 @@ lebih efisien, terstruktur, dan cepat.
     │   ├── crawler.py
     │   ├── scanner.py
     │   ├── fuzzer.py
-    │   ├── utils/
+    |
+    ├── utils/
     │       ├── http_client.py
     │       ├── logger.py
     │       ├── parser.py
@@ -47,6 +48,7 @@ lebih efisien, terstruktur, dan cepat.
     ├── reports/
     │   ├── hasil_scan.json
     │
+    ├── main.py
     ├── main_menu.py
     ├── requirements.txt
 
